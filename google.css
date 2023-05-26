@@ -1,0 +1,166 @@
+header{  display:inline block;
+        width: 100%;
+}
+   
+     li{  display: inline-block;
+        margin-right: 15px;
+        font-family:'roboto', sans-serif;
+           }
+  .nav_link{   
+     float: right;
+  }
+
+  .nav_in{   float: right; 
+           padding-top: 2px;
+           padding-right: 5px;
+           padding-left: 5px;
+           padding-bottom: 2px;
+         background-color: blue; 
+         position: relative;  
+         top: 0px;  
+          color: antiquewhite;
+          border-radius: 2px;
+          text-align: center;
+        }
+   .nav_in:hover{  box-shadow: 1px 1px 1px; color: #999;}  
+   
+   .google_logo{
+       font-family:sans-serif; 
+       letter-spacing: -8px;
+       font-weight:300 ;
+        display: inline-block;
+        position: relative;
+        left:25%;
+        padding: 10%;
+        font-size: 100px;
+   }
+   .color_1{ color: blue;}
+   .color_2{ color: red;}
+   .color_3{  color: yellow;}
+   .color_4{  color:blue}
+   .color_5{  color: green;}
+   .color_6{  color:red}
+
+
+ section .logo a{  background-image: url(google.logo.png);
+                   background-size: 1000%;
+                   display: inline-block;
+                   margin:  0 auto;
+                   padding-top: 112px;
+                   scroll-padding-bottom: 20px;
+                   background-repeat: no repeat;
+                   margin-left: 40%;
+
+                   
+
+                 }
+
+
+                 form{ text-align: center;
+                width: 100%;
+                }
+      section.logo{ 
+        display: inline-block;
+      }
+  .search_bar{ 
+    width: 1050px;
+    right: 0;
+    left: 0;
+    line-height: 32px;
+    padding: 20px 10px;
+      position: absolute;
+    margin-right: 0;
+     margin-left: 20%;
+  }
+ 
+
+  .voicesearch{
+    position: relative;
+    right:70px ;
+    top: 4px;
+    height: 20px;
+  
+   }
+
+   .google_lens{ 
+    position: relative;
+    top:4px ;
+    height: 20px;
+    right: 70px;
+    background-color:  rgba(255, 255, 255, 0.946);
+   }
+
+
+
+
+  .search_bar input{ 
+    display: inline-block;
+    border-radius: 20px;
+    /* border: none; */
+    outline: none;
+    width: 800px;
+    height:35px ;
+    padding-right: 10px;
+
+
+  }
+  form input{ 
+    /* position: relative; */
+    padding: 8px;
+    /* padding-top: -2px; */
+    /* margin-top: 2px; */
+    margin-right: 10px;
+    background-color: rgb(229, 219, 219);
+    outline: none;
+    width: 7.5%;
+    /* top: 4px; */
+  }
+  .offer{  position: relative;
+    left:35% ;
+     right: 10%;
+     top:-60px;
+  }
+ section .offered_in_blue{  
+    color: blue;
+  }
+
+  footer{ display: inline-block;
+          border-top: solid 2px #e4e4e4;
+          bottom:0 ;
+            padding-bottom: 0;
+             width: 100%;
+            background-color: rgba(236, 226, 226, 0.862);}
+
+             /* footer ul{ 
+              float: none;
+              padding-bottom: 2px;
+             } */
+
+    footer li:hover{  
+      text-decoration: underline;
+    }
+
+  footer .footer_right{
+    float: right;
+    text-align: center;
+  left: 30%;
+  
+  
+    }
+
+   .footer_left{ 
+    border-left: 100px;
+    position: relative;
+    float: left;
+    text-align: center;
+    /* margin: auto; */
+    padding-top: 10px;
+    /* left: 50%; */
+  }
+  
+
+  /* @media screen(max-width:374px) { */
+    
+    
+  /* } */
+
